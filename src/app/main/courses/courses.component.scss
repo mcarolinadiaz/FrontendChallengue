@@ -1,3 +1,44 @@
 .component-container {
-  height: 1000px;
+  background-color: #E9E6E1;//$--unnamed-color-e9e6e1;
+}
+
+.courses {
+  display: flex;
+  flex: border-box;
+  padding: 100px 100px 20px;
+}
+
+.info-courses {
+  width: 376px;
+  height: 688px;
+  padding-right: 50px;
+}
+
+.courses-title {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-larken-extrabold);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(---000000);
+  text-align: left;
+  font: normal normal normal 39px/58px Larken-ExtraBold;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.workshop-title {
+  font-family: Larken-ExtraBold;//var(--unnamed-font-family-larken-extrabold);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: normal;//var(--unnamed-font-weight-normal);
+  font-size: 39px;//var(--unnamed-font-size-39);
+  line-height: var(--unnamed-line-spacing-58);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(---000000);
+  //font-weight: 700;
+}
+
+.workshop-courses {
+  padding-left: 50px;
+}
+
+.grid-courses {
+  display: grid;
 }
