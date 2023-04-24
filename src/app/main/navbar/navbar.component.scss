@@ -1,4 +1,22 @@
 .navbar-brother {
   position: fixed;
   z-index: 100;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: var(--unnamed-font-family-work-sans);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-12-800000190734863);
+  line-height: var(--unnamed-line-spacing-15);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(---000000);
 }
+
+.hashtag-nav {
+  font-weight: 700;
+}
+
+.navbar-brother__links {
+  padding-left: 200px;
+}
+
