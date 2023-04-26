@@ -18,17 +18,17 @@ export class FreshNewsComponent implements OnInit {
     this.freshNews = [
       {
         "title": "Chin chin por nuestra plata en el #hackforgood del cdec",
-        "image": "src/assets/images/news-01.jpg",
+        "image": "assets/images/news-01.jpg",
         "more": ""
       },
       {
         "title": "Chin chin por nuestra plata en el #hackforgood del cdec",
-        "image": "src/assets/images/news-02.jpg",
+        "image": "assets/images/news-02.jpg",
         "more": ""
       },
       {
         "title": "Dos alumnas de Brother crean la primera manifestación feminista en Twitch",
-        "image": "src/assets/images/news-02.jpg",
+        "image": "assets/images/news-02.jpg",
         "more": ""
       },
       {
@@ -38,7 +38,7 @@ export class FreshNewsComponent implements OnInit {
       },
       {
         "title": "Brother Presenta Pinta y Colorea: el ciclo con el mejor talento gráfico de Madrid",
-        "image": "src/assets/images/news-03.jpg",
+        "image": "assets/images/news-03.jpg",
         "more": ""
       },
       {
