@@ -3,9 +3,12 @@
     Noticias frescas
   </div>
   <div class="fresh-news-body">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <ng-container class="fresh-news-body-container" *ngFor="let fNews of freshNews">
+      <div class="f-news-item">
+        <div class="f-news-item-title">{{fNews.title}}</div>
+        <div class="f-news-item-image"></div>
+        <div class="f-news-item-date"></div>
+      </div>
+    </ng-container>
   </div>
 </div>

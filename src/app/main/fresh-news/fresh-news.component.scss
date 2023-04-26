@@ -18,4 +18,8 @@
 .fresh-news-body {
   padding-left: 140px;
   padding-right: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
