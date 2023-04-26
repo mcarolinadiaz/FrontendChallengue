@@ -8,4 +8,21 @@
 
 .body-container {
   padding: 140px;
+  display: flex;
+  flex-direction: row;
+}
+
+.brother-madrid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.br-min-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.mad-arr-con {
+  display: flex;
+  flex-direction: row;
 }
